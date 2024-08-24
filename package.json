@@ -1,0 +1,22 @@
+{
+  "name": "todo-cli-package",
+  "version": "1.0.1",
+  "description": "A CLI tool for managing todo lists by project",
+  "main": "lib/todo.js",
+  "publisher": "emrdd",
+  "bin": {
+    "todo-cli": "./bin/cli.js"
+  },
+  "scripts": {
+    "start": "node bin/cli.js"
+  },
+  "dependencies": {
+    "commander": "^11.0.0",
+    "fs-extra": "^11.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0"
+  },
+  "keywords": ["todo" , "cli" , "package" , "tool" , "manage" , "devtool"],
+  "license": "MIT"
+}
