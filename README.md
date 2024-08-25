@@ -13,7 +13,7 @@
 To install the package globally via npm, use the following command:
 
 ```bash
-npm install -g todo-cli
+npm install -g todo-cli-package
 ```
 
 # Usage
